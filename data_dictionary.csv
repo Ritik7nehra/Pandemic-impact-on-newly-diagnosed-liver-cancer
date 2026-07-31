@@ -1,0 +1,45 @@
+column,description
+Cancer,Raw cancer flag in the source file. In this dataset it aligns mainly with HCC versus ICC records; use Cancer_Type for dashboard analysis.
+Year,Original cohort label in the source file.
+Month,Month number in the 12-month cohort window.
+Bleed,Spontaneous tumour haemorrhage flag.
+Mode_Presentation,"Surveillance, incidental, or symptomatic presentation."
+Age,Patient age in years.
+Gender,Patient gender in the source file.
+Etiology,Underlying disease etiology where recorded.
+Cirrhosis,Underlying cirrhosis flag.
+Size,Tumour diameter in millimetres.
+HCC_TNM_Stage,Hepatocellular carcinoma TNM stage.
+HCC_BCLC_Stage,Hepatocellular carcinoma BCLC stage.
+ICC_TNM_Stage,Intrahepatic cholangiocarcinoma TNM stage.
+Treatment_grps,First-line treatment group.
+Survival_fromMDM,Survival from multidisciplinary meeting in months.
+Alive_Dead,Alive or dead at follow-up.
+Type_of_incidental_finding,Type of incidental finding.
+Surveillance_programme,Whether patient was in a formal surveillance programme.
+Surveillance_effectiveness,Surveillance adherence during the previous year.
+Mode_of_surveillance_detection,Mode of incident surveillance test.
+Time_diagnosis_1st_Tx,Time from diagnosis to first treatment.
+Date_incident_surveillance_scan,Incident surveillance scan flag in source file.
+PS,Performance status.
+Time_MDM_1st_treatment,Time from MDM to first treatment.
+Time_decisiontotreat_1st_treatment,Time from decision to treat to first treatment.
+Prev_known_cirrhosis,Whether cirrhosis was previously known.
+Months_from_last_surveillance,Months from last surveillance.
+Cohort,Clean cohort label: Pre-pandemic or Pandemic.
+Cohort_Order,Derived or source column used by dashboard.
+Month_Name,Derived or source column used by dashboard.
+Month_Order,Derived or source column used by dashboard.
+Cancer_Type,Derived cancer type using available HCC and ICC staging fields.
+Cancer_Type_Simple,"Simplified cancer type: HCC, ICC, or Review."
+Treatment_Category,"Treatment grouped into curative intent, locoregional, systemic, supportive, not recorded, or review."
+Stage_Group,Readable stage group derived from HCC BCLC or ICC TNM stage.
+Age_Group,Age band.
+Tumour_Size_Group,Tumour size band.
+Alive_Flag,"1 if Alive_Dead is Alive, else 0."
+Death_Flag,"1 if Alive_Dead is Dead, else 0."
+Presentation_Context,Derived or source column used by dashboard.
+Has_Cirrhosis,Derived or source column used by dashboard.
+Has_Bleed,Derived or source column used by dashboard.
+Known_Cirrhosis_Before,Derived or source column used by dashboard.
+Diagnosis_to_Treatment_Flag,Derived or source column used by dashboard.

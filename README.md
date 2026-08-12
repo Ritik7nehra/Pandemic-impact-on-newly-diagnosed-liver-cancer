@@ -76,7 +76,7 @@ The uploaded data dictionary describes `Cancer` as a Y/N flag, but the rows with
 - Surveillance presentation decreased from **26.7%** to **17.9%** of cases.
 - Median survival from MDM shifted from **15.6** to **9.2** months in the observed cohort. This is descriptive and should not be interpreted causally without accounting for follow-up time and case mix.
 
-## Cautions
+## Cautions -
 
 - The dataset is observational and referral-based.
 - Missing values are common in surveillance and treatment-timing fields.
